@@ -33,6 +33,42 @@ ai_assistant/
 └── tools/
     ├── weather_tool.py  # OpenWeatherMap API implementation
     └── github_tool.py   # GitHub repository search implementation
+```
 
+## 🚀 Getting Started
+
+### 1️⃣ Prerequisites
+Ensure you have Python 3.10 or higher installed. You can verify this by running:
+
+```bash
+python --version
+```
+### 2️⃣ Installation
+
+Clone the repository and install the necessary dependencies using the following commands:
+
+```Bash
+pip install -r requirements.txt
+```
+### 3️⃣ Setup Environment Variables 🔑
+
+This project uses environment variables to keep API keys secure.
+
+Create a .env file in the root directory.
+
+Add your keys as follows:
+
+Code snippet
+```bash
+GEMINI_API_KEY=your_actual_gemini_key
+WEATHER_API_KEY=your_actual_weather_key
+```
+### 4️⃣ Running the Application
+
+To start the assistant and begin interacting with the agents, run the main entry point:
+
+```Bash
+python main.py
+```
 
 
