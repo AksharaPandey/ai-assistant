@@ -6,4 +6,4 @@
         llm/
         main.py
         requirements.txt
-        tools/
+        tools/.env
