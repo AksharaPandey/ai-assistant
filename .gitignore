@@ -1,0 +1,9 @@
+.DS_Store
+        .env
+        .env.example
+        README.md
+        agents/
+        llm/
+        main.py
+        requirements.txt
+        tools/
